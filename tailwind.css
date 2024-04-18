@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+section{
+    height:150vh;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-attachment: fixed;
+}
+.image-Moi {
+  background-image: url("/img/IMG_1676.jpg");
+  background-position: top;
+}
+@media (min-width: 768px){
+.image-Moi {
+    background-image: url("/img/IMG_1676.jpg");
+    background-position: 50% 10%;
+}
+.agrandirBackground{
+  height:300vh;
+
+}
+  }
+
+ .image-1 {
+
+background-image: url("/img/22-1920x1080.jpg");
+} 
+
+ .image-2 {
+  background-image: url("/img/38-1920x1080.jpg");
+}
+.image-3 {
+  background-image: url("/img/1080.jpg");
+}
+.image-4 {
+  background-image: url("/img/38-1920x1080-2.jpg");
+}
+.image-5{
+
+  background-image: url("https://fastly.picsum.photos/id/906/1920/1080.jpg?hmac=sItNs5H9IpyWCIdp1-E1qXZmXYf7n0rTUVV79Va_zYY");
+} 
+.image-6{
+
+  background-image: url("/img/614-1920x1080.jpg");
+} 
+.oswald{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.alignerNavbar{
+  flex-direction: inherit;
+}
+.hiddencss{
+  visibility: hidden;
+}
+@media(min-width: 768px){
+  .hiddencss {
+    visibility: hidden;
+  }
+  .navbarPcres{
+    display: flex;
+  }
+}
+.logoCenter{
+  display: flex;
+  flex-direction: column;
+  padding-left: 6%;
+  margin-left: 36%;
+
+}
+
+.my-flex-columns{
+  display: flex;
+  flex-direction: column;
+}
+.visible3{
+  visibility: hidden;
+}
+@media screen and (min-width: 768px) {
+  
+  .visible3{
+    visibility: visible;
+  }
+}
+.my-flex-columns {
+  flex-direction: row;
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
