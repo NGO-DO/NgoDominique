@@ -12,14 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <script>
-        src = "test.js"
-    </script>
     <!-- <link rel="stylesheet" href="../tailwind.css"> -->
     <title>Portefolio Ho Ngo Dominique</title>
 </head>
 
 <body id="top">
+    <script>src="test.js"</script>
     <!-- debut navbar -->
     <!-- debut navbar -->
     <header class="sticky top-0 z-50">
@@ -27,11 +25,6 @@
             <h5 class=" font-poppins text-3xl  text-gray-50 px-3 py-3">
                 Ho Ngo Dominique
             </h5>
-            <nav class="relative md:invisible">
-                <!-- <button class="material-symbols-outlined ml-auto ml-6 py-4 cursor-pointer" type="button" onclick="toggleNavbar('collapse-nav')">
-                    menu
-                </button> -->
-            </nav>
             <div class="items-center mt-4" id="collapse-nav">
                 <ul class="navbarPcres my-flex-columns ml-auto">
                     <li class="nav-item">
@@ -64,7 +57,7 @@
         </div>
     </header>
     <!-- fin navbar -->
-    <section class="image-Moi">
+    <section class="image-Moi section bgposition">
         <div class=" flex box-content h-20% w-32% p-4 border-4 bg-slate-900 md:justify-center">
             <h5 class="oswald text-3xl text-white flex items-center">SALUT JE SUIS UN FULL-STACK DEVELOPPER</h5>
             <img src="img/logo-wac.png" alt="logo-wac" class="h-20 rounded-full ml-[4%]" aria-expanded="false" />
@@ -73,15 +66,12 @@
         </div>
     </section>
     </header>
-    <section class="image-1 w-full px-16 py-[15%]">
+    <section class="image-1 w-full px-16 py-[15%] section2">
         <!-- START BOX -->
         <div class="md:mx-40 bg-white bg-opacity-50 rounded-md shadow-2xl">
             <h5 class="oswald text-red-700 text-2xl " id="about-me">Sur moi</h5>
             <container id="home" class="flex space-x-4 w-full">
                 <div class="box-border p-4 border-4 mx-auto my-3 drop-shadow-lg ring-offset-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vitae harum libero, officia nulla quod. Maiores voluptatem quibusdam eligendi officiis. Quaerat deleniti numquam totam quae! Possimus cupiditate pariatur autem accusantium.
-                </div>
-                <div class="box-border p-4 border-4 my-3 drop-shadow-lg ring-offset-4">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vitae harum libero, officia nulla quod. Maiores voluptatem quibusdam eligendi officiis. Quaerat deleniti numquam totam quae! Possimus cupiditate pariatur autem accusantium.
                 </div>
             </container>
@@ -96,11 +86,11 @@
 
     </section>
 
-    <section class="image-2 grid justify-items-center">
+    <section class="section image-2 grid justify-items-center">
 
         <!-- Mes coordonnées -->
         <container>
-            <div class="px-16 divide-y divide-slate-700 md:mx-40 bg-white bg-opacity-50 my-[20%] rounded-md shadow-2xl">
+            <div class="md:mx-40 px-16 divide-y divide-slate-700 md:mx-40 bg-white bg-opacity-50 my-[20%] rounded-md shadow-2xl">
                 <h5 class="oswald text-red-700 text-2xl" id="contact">Contact</h5>
                 <ul class="font-poppins">
                     <li>Nom: <br>Ho Ngo Dominique</li>
@@ -114,54 +104,49 @@
         </container>
         <!-- FIN coordonnées -->
     </section>
-    <section class="image-3 grid justify-items-center">
-        <!-- CV -->
-        <div class="px-16 divide-y divide-slate-700 md:mx-40 bg-white bg-opacity-50 my-[7%] rounded-md shadow-2xl">
-            <h5 class="oswald text-red-700 text-2xl" id="cv">CV</h5>
-            <container id="CV">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ullam consequuntur quod, nulla et numquam, tempore eligendi placeat asperiores modi! Quisquam eos obcaecati consequatur, excepturi explicabo modi laboriosam aliquam.
-                <img src="img/icons8-github.gif" alt="logo-github">
-                <img src="img/Green Modern Professional Resume.png" alt="CV DOM" class="md:w-96">
-                <a class="bg-amber-900" href="img/Download-1.pdf" download="Ho Ngo Dominique CV">Télécharger le cv</a>
+    <div>
+        <section class="section image-3 grid justify-items-center">
+            <!-- CV -->
+            <div class="px-16 divide-y divide-slate-700 md:mx-40 bg-white bg-opacity-50 mt-[7%] mb-[93%] pt-rounded-md shadow-2xl">
+                <h5 class="oswald text-red-700 text-2xl" id="cv">CV</h5>
+                <container id="CV">
+                    <img src="img/icons8-github.gif" alt="logo-github">
+                    <img src="img/Green Modern Professional Resume.png" alt="CV DOM" class="w-52 md:w-96">
+                    <a class="bg-amber-900" href="img/Download-1.pdf" download="Ho Ngo Dominique CV">Télécharger le cv</a>
 
-            </container>
-        </div>
-        <!-- END CV -->
-    </section>
+                </container>
+            </div>
+            <!-- END CV -->
+        </section>
+    </div>
     <!-- Mes Projets -->
-    <section class="image-4 grid justify-items-center ">
+    <section class="section2 section3 image-4 grid justify-items-center ">
         <div>
-            <h5 class="oswald text-red-700 text-2xl px-[13%] bg-white bg-opacity-50 mt-[4%] rounded-md shadow-2xl mx-[4%]" id="mesProjets">Mes projets</h5>
-            <ul class="md:flex px-16 divide-slate-700 ">
+            <h5 class="oswald text-red-700 text-2xl px-[13%] bg-white bg-opacity-50 mt-[4%] rounded-md shadow-2xl mx-[4%] " id="mesProjets">Mes projets</h5>
+            <ul class="md:flex px-16 divide-slate-700 mb-[1%]">
+                <li id="bonjour" class="md:w-1/2 p-3 mx-3 bg-white bg-opacity-50 mt-[4%] rounded-md shadow-2xl">
+                    <img src="img/Capture d’écran du 2024-04-15 11-29-09.png" alt="imageMyCinema" class=" hover:opacity-50" />
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ullam consequuntur quod, nulla et numquam, tempore eligendi placeat asperiores modi! Quisquam eos obcaecati consequatur, excepturi explicabo modi laboriosam aliquam.</p>
+                </li>
                 <li class="md:w-1/2 p-3 mx-3 bg-white bg-opacity-50 mt-[4%] rounded-md shadow-2xl">
-                    <img src="img/Capture d’écran du 2024-04-15 11-29-09.png" alt="imageMyCinema" class="hover:opacity-50" />
+                    <a href="https://github.com/orgs/EpitechWebAcademiePromo2025/dashboard"><img src="img/Tweeter.png" alt="imageTweeter" class="hover:opacity-50" /></a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ullam consequuntur quod, nulla et numquam, tempore eligendi placeat asperiores modi! Quisquam eos obcaecati consequatur, excepturi explicabo modi laboriosam aliquam.</p>
 
                 </li>
                 <li class="md:w-1/2 p-3 mx-3 bg-white bg-opacity-50 mt-[4%] rounded-md shadow-2xl">
-                    <a href="https://github.com/orgs/EpitechWebAcademiePromo2025/dashboard"><img src="img/Capture d’écran du 2024-04-15 11-29-09.png" alt="imageMyCinema" class="hover:opacity-50" /></a>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ullam consequuntur quod, nulla et numquam, tempore eligendi placeat asperiores modi! Quisquam eos obcaecati consequatur, excepturi explicabo modi laboriosam aliquam.</p>
-
-                </li>
-                <li class="md:w-1/2 p-3 mx-3 bg-white bg-opacity-50 mt-[4%] rounded-md shadow-2xl">
-                    <img src="img/Capture d’écran du 2024-04-15 11-29-09.png" alt="imageMyCinema" class="hover:opacity-50" />
+                    <img src="img/site-intro.png" alt="imageSiteIntro" class="hover:opacity-50" />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ullam consequuntur quod, nulla et numquam, tempore eligendi placeat asperiores modi! Quisquam eos obcaecati consequatur, excepturi explicabo modi laboriosam aliquam.</p>
 
                 </li>
             </ul>
             <ul class="md:flex px-16">
                 <li class="md:w-1/2 p-3 mx-3 bg-white bg-opacity-50 mt-[4%] rounded-md shadow-2xl">
-                    <img src="img/Capture d’écran du 2024-04-15 11-29-09.png" alt="imageMyCinema" class="hover:opacity-50" />
+                    <img src="img/reponsive.png" alt="imageSiteResponsive" class="hover:opacity-50" />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ullam consequuntur quod, nulla et numquam, tempore eligendi placeat asperiores modi! Quisquam eos obcaecati consequatur, excepturi explicabo modi laboriosam aliquam.</p>
 
                 </li>
                 <li class="md:w-1/2 p-3mx-3 bg-white bg-opacity-50 mt-[4%] rounded-md shadow-2xl">
-                    <img src="img/Capture d’écran du 2024-04-15 11-29-09.png" alt="imageMyCinema" class="hover:opacity-50" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ullam consequuntur quod, nulla et numquam, tempore eligendi placeat asperiores modi! Quisquam eos obcaecati consequatur, excepturi explicabo modi laboriosam aliquam.</p>
-
-                </li>
-                <li class="md:w-1/2 p-3 mx-3 bg-white bg-opacity-50 mt-[4%] rounded-md shadow-2xl">
-                    <img src="img/Capture d’écran du 2024-04-15 11-29-09.png" alt="imageMyCinema" class="hover:opacity-50" />
+                    <img src="img/meetic.png" alt="imageMeetic" class="hover:opacity-50" />
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, doloribus ullam consequuntur quod, nulla et numquam, tempore eligendi placeat asperiores modi! Quisquam eos obcaecati consequatur, excepturi explicabo modi laboriosam aliquam.</p>
 
                 </li>
@@ -172,9 +157,9 @@
     </section>
     <!-- FIN mes projets -->
     <!-- mes diplomes ect -->
-    <section class="image-5 grid justify-items-center ">
+    <section class="section3 section4 image-5 grid justify-items-center ">
         <!-- START IMG-->
-        <div class="md:mx-40 bg-white bg-opacity-50 my-[7%] rounded-md shadow-2xl">
+        <div class="md:mx-40 bg-white bg-opacity-50 mt-36 mb-[10%] md:mb-[55%] rounded-md shadow-2xl">
             <h5 id="mescompetences" class=" oswald text-red-700 text-2xl mx-12 mb-[4%] px-16">MES COMPÉTENCES </h5>
                 <ul class="md:flex object-none">
                     <li class="text-white hover:opacity-75">
@@ -219,15 +204,14 @@
 
 
     <!-- MES hobbies ect..-->
-    <section class="image-6 py-[7%]">
-        <div class="md:mx-52 bg-white bg-opacity-50 rounded-md shadow-2xl">
+    <section class="section image-6 py-[7%]">
+        <div class="md:mx-40 bg-white bg-opacity-50 rounded-md shadow-2xl">
             <container>
                 <h5 id="mescompetences" class=" oswald text-red-700 text-2xl mx-12 px-16">ENVOYER UN MESSAGE</h5>
-
                 <form action="https://submit-form.com/YndUcfpkV" id="form" method="post" class="pace-y-52">
                     <input id="name" name="name" type="text" placeholder="Your name ..." class="my-3 mx-12 border-2 border-sky-500">
                     <input id="email" name="email" type="text" placeholder="Your email ..." class="my-3 mx-12 border-2 border-sky-500">
-                    <textarea id="message" name="message" cols="45" rows="5" placeholder="Your message ..." class="my-3 mx-12 border-2 border-sky-500"></textarea>
+                    <textarea id="message" name="message" cols="20" rows="5" placeholder="Your message ..." class="my-3 border-2 border-sky-500"></textarea>
                     <input id="button" type="submit" name="button" value="say hello!" class="flex box-content h-20% w-32% p-4 border-4 bg-red-200 border-2 border-sky-500">
                 </form>
             </container>
@@ -238,11 +222,7 @@
 
     </form>
     <!-- FIN FORMULAIRE de contact -->
-    <!-- <script>
-        function toggleNavbar(test) {
-            document.getElementById(test).classList.toggle("hidden");
-        }
-    </script> -->
+
     <footer class=" bg-slate-900 py-[7%]">
         <container>
             <div class=" md:flex  grid justify-items-center md:grid md:grid-cols-3">

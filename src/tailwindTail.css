@@ -588,10 +588,6 @@ video {
   }
 }
 
-.relative {
-  position: relative;
-}
-
 .sticky {
   position: sticky;
 }
@@ -612,6 +608,11 @@ video {
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
+}
+
+.mx-40 {
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .mx-7 {
@@ -639,13 +640,17 @@ video {
   margin-bottom: 20%;
 }
 
-.my-\[7\%\] {
-  margin-top: 7%;
-  margin-bottom: 7%;
+.mx-20 {
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .mb-3 {
   margin-bottom: 0.75rem;
+}
+
+.mb-\[1\%\] {
+  margin-bottom: 1%;
 }
 
 .mb-\[10\%\] {
@@ -660,8 +665,8 @@ video {
   margin-bottom: 4%;
 }
 
-.ml-6 {
-  margin-left: 1.5rem;
+.mb-\[93\%\] {
+  margin-bottom: 93%;
 }
 
 .ml-\[24\%\] {
@@ -676,6 +681,10 @@ video {
   margin-left: auto;
 }
 
+.mt-36 {
+  margin-top: 9rem;
+}
+
 .mt-4 {
   margin-top: 1rem;
 }
@@ -688,12 +697,8 @@ video {
   margin-top: 4%;
 }
 
-.mb-\[1\%\] {
-  margin-bottom: 1%;
-}
-
-.mb-\[20\%\] {
-  margin-bottom: 20%;
+.mt-\[7\%\] {
+  margin-top: 7%;
 }
 
 .box-border {
@@ -710,10 +715,6 @@ video {
 
 .grid {
   display: grid;
-}
-
-.hidden {
-  display: none;
 }
 
 .h-20 {
@@ -738,10 +739,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.cursor-pointer {
-  cursor: pointer;
 }
 
 .items-center {
@@ -860,11 +857,6 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .py-\[15\%\] {
   padding-top: 15%;
   padding-bottom: 15%;
@@ -875,20 +867,16 @@ video {
   padding-bottom: 7%;
 }
 
+.pb-\[10\%\] {
+  padding-bottom: 10%;
+}
+
 .pt-\[3\%\] {
   padding-top: 3%;
 }
 
 .pt-\[30\] {
   padding-top: 30;
-}
-
-.pb-\[\] {
-  padding-bottom: ;
-}
-
-.pb-\[10\%\] {
-  padding-bottom: 10%;
 }
 
 .font-poppins {
@@ -905,6 +893,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -913,11 +906,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -982,8 +970,31 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-section{
+.section{
   height:150vh;
+  width: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* pour la responsive vertical pour les projets ect..*/
+
+.section2{
+  /* height:370vh; */
+  padding-bottom: 5%;
+  width: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* pour la responsive vertical pour les experiences */
+
+.section4{
+  /* height:500vh; */
   width: 100%;
   background-position:center;
   background-repeat: no-repeat;
@@ -1002,8 +1013,18 @@ section{
     background-position: 50% 10%;
   }
 
-  .agrandirBackground{
-    height:300vh;
+  .section3{
+    height:150vh;
+    padding-bottom:1%;
+    width: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .bgposition{
+    background-position: 50% 15%;
   }
 }
 
@@ -1063,6 +1084,11 @@ section{
   margin-left: 36%;
 }
 
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+}
+
 .my-flex-columns{
   display: flex;
   flex-direction: column;
@@ -1113,18 +1139,13 @@ section{
 }
 
 @media (min-width: 768px) {
-  .md\:invisible {
-    visibility: hidden;
-  }
-
   .md\:mx-40 {
     margin-left: 10rem;
     margin-right: 10rem;
   }
 
-  .md\:mx-52 {
-    margin-left: 13rem;
-    margin-right: 13rem;
+  .md\:mb-\[55\%\] {
+    margin-bottom: 55%;
   }
 
   .md\:flex {
