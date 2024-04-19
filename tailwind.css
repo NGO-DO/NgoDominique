@@ -1,107 +1,116 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.section{
-    height:150vh;
-    width: 100%;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   background-attachment: fixed;
+.section {
+  height: 150vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 /* pour la responsive vertical pour les projets ect..*/
-.section2{
+.section2 {
   /* height:370vh; */
   padding-bottom: 5%;
   width: 100%;
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
- background-attachment: fixed;
+  background-attachment: fixed;
 }
 /* pour la responsive vertical pour les experiences */
-.section4{
+.section4 {
   /* height:500vh; */
   width: 100%;
-  background-position:center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
- background-attachment: fixed;
+  background-attachment: fixed;
 }
 .image-Moi {
   background-image: url("/img/IMG_1676.jpg");
   background-position: top;
 }
-@media (min-width: 768px){
-.image-Moi {
+@media (min-width: 768px) {
+  .image-Moi {
     background-image: url("/img/IMG_1676.jpg");
     background-position: 50% 10%;
   }
-  .section3{
-    height:150vh;
-    padding-bottom:1%;
+  .section3 {
+    height: 150vh;
+    padding-bottom: 1%;
     width: 100%;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   background-attachment: fixed;
+    background-attachment: fixed;
   }
-  
-  .bgposition{
 
+  .bgposition {
     background-position: 50% 15%;
   }
+}
+.bgposition2{
+  background-position: 50% 50%;
+}
 
-  }
+.image-1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/22-1920x1080.jpg");
+}
 
- .image-1 {
-
-background-image: url("/img/22-1920x1080.jpg");
-} 
-
- .image-2 {
+.image-2 {
+  width: 100%;
+  height: 100%;
   background-image: url("/img/38-1920x1080.jpg");
 }
 .image-3 {
+  width: 100%;
+  height: 100%;
   background-image: url("/img/1080.jpg");
 }
 .image-4 {
+  width: 100%;
+  height: 100%;
   background-image: url("/img/38-1920x1080-2.jpg");
 }
-.image-5{
-
+.image-5 {
+  width: 100%;
+  height: 100%;
   background-image: url("https://fastly.picsum.photos/id/906/1920/1080.jpg?hmac=sItNs5H9IpyWCIdp1-E1qXZmXYf7n0rTUVV79Va_zYY");
-} 
-.image-6{
-
+}
+.image-6 {
+  width: 100%;
+  height: 100%;
   background-image: url("/img/614-1920x1080.jpg");
-} 
-.oswald{
+}
+.oswald {
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
 }
-.alignerNavbar{
+.alignerNavbar {
   flex-direction: inherit;
 }
-.hiddencss{
+.hiddencss {
   visibility: hidden;
 }
-@media(min-width: 768px){
+@media (min-width: 768px) {
   .hiddencss {
     visibility: hidden;
   }
-  .navbarPcres{
+  .navbarPcres {
     display: flex;
   }
 }
-.logoCenter{
+.logoCenter {
   display: flex;
   flex-direction: column;
   padding-left: 6%;
   margin-left: 36%;
-
 }
 textarea {
   -webkit-box-sizing: border-box;
@@ -111,16 +120,15 @@ textarea {
   width: 100%;
 }
 
-.my-flex-columns{
+.my-flex-columns {
   display: flex;
   flex-direction: column;
 }
-.visible3{
+.visible3 {
   visibility: hidden;
 }
 @media screen and (min-width: 768px) {
-  
-  .visible3{
+  .visible3 {
     visibility: visible;
   }
 }
