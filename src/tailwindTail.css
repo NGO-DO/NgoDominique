@@ -1009,6 +1009,7 @@ video {
 .image-Moi {
   background-image: url("/img/IMG_1676.jpg");
   background-position: top;
+  background-size: cover;
 }
 
 @media (min-width: 768px) {
@@ -1032,7 +1033,7 @@ video {
   }
 }
 
-.bgposition2{
+.bgposition2 {
   background-position: 50% 50%;
 }
 

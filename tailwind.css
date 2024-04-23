@@ -31,6 +31,7 @@
 .image-Moi {
   background-image: url("/img/IMG_1676.jpg");
   background-position: top;
+  background-size: cover;
 }
 @media (min-width: 768px) {
   .image-Moi {
@@ -51,7 +52,7 @@
     background-position: 50% 15%;
   }
 }
-.bgposition2{
+.bgposition2 {
   background-position: 50% 50%;
 }
 
